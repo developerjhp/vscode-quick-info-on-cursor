@@ -4,6 +4,10 @@
   "description": "Automatically show Quick Info when keyboard cursor hovers on a symbol.",
   "version": "0.0.1",
   "publisher": "developerjhp",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/developerjhp/vscode-quick-info-on-cursor.git"
+  },
   "engines": {
     "vscode": ">=1.70.0"
   },
