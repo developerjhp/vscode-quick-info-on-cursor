@@ -1,0 +1,56 @@
+{
+  "name": "quick-info-on-cursor",
+  "displayName": " Quick Info on Cursor",
+  "description": "Automatically show Quick Info when keyboard cursor hovers on a symbol.",
+  "version": "0.0.1",
+  "publisher": "developerjhp",
+  "engines": {
+    "vscode": ">=1.70.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "*"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "configuration": {
+      "title": "Quick Info on Cursor",
+      "properties": {
+        "quickInfoOnCursor.enabled": {
+          "type": "boolean",
+          "default": true,
+          "description": "Enable or disable Quick Info on Cursor"
+        },
+        "quickInfoOnCursor.delay": {
+          "type": "number",
+          "default": 500,
+          "description": "Delay in ms before showing Quick Info on cursor"
+        }
+      }
+    },
+    "commands": [
+      {
+        "command": "quickInfoOnCursor.triggerHover",
+        "title": "Trigger Hover for Debugging"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "yarn run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "lint": "eslint src --ext ts",
+    "clean": "rm -rf out"
+  },
+  "devDependencies": {
+    "@types/node": "20.x",
+    "@types/vscode": ">=1.60.0",
+    "@typescript-eslint/eslint-plugin": "^8.31.1",
+    "@typescript-eslint/parser": "^8.31.1",
+    "eslint": "^9.25.1",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {}
+}
