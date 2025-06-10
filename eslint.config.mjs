@@ -15,7 +15,7 @@ export default tseslint.config(
   {
     rules: {
       // 기존 규칙 유지
-      // "@typescript-eslint/naming-convention": [
+      "@typescript-eslint/naming-convention": [
         "warn",
         {
           selector: "import",
