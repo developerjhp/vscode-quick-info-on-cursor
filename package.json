@@ -2,7 +2,7 @@
   "name": "quick-info-on-cursor",
   "displayName": " Quick Info on Cursor",
   "description": "Automatically show Quick Info when keyboard cursor hovers on a symbol.",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "publisher": "developerjhp",
   "repository": {
     "type": "git",
