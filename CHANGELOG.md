@@ -2,6 +2,13 @@
 
 All notable changes to the "quick-info-on-cursor" extension will be documented in this file.
 
+## [0.3.0] - 2025-06-11
+
+### Changed
+
+- Improved hover experience by showing definition preview instead of basic hover tooltip
+  (Replaced `editor.action.showHover` with `editor.action.showDefinitionPreviewHover` for enhanced code information display)
+
 ## [0.2.0] - 2025-06-10
 
 ### Added
