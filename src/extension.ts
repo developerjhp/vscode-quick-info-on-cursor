@@ -26,9 +26,7 @@ export function activate(context: vscode.ExtensionContext) {
         const delay = config.get("delay", 500);
 
         hoverTimer = setTimeout(() => {
-          vscode.commands.executeCommand(
-            "editor.action.showDefinitionPreviewHover"
-          );
+          vscode.commands.executeCommand("editor.action.showHover");
         }, delay);
       }
     );
