@@ -1,5 +1,7 @@
 # Quick Info on Cursor
 
+![instructions](https://github.com/user-attachments/assets/1b3265f3-dded-4091-93e3-9b262ab1b1ca)
+
 A VS Code extension that automatically shows Quick Info (type information, documentation, etc.) when the keyboard cursor moves to a symbol.
 
 ## Features
